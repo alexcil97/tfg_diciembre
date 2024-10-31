@@ -5,12 +5,16 @@ import { FaHome } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
 import { TiMessages } from "react-icons/ti";
+import { IoMdCloudUpload } from "react-icons/io";
+
 
 const sidebarLinks = [
-  { href: "/Home", label: "Home", Icon: FaHome },
+  { href: "/home", label: "Home", Icon: FaHome },
+  { href: "/publication", label: "Publication", Icon: IoMdCloudUpload },
   { href: "/search", label: "Search", Icon: FaSearch },
   { href: "/message", label: "Messages", Icon: TiMessages },
   { href: "/profile", label: "Profile", Icon: CgProfile  },
+  
 ];
 
 export default function SidebarLinks() {
